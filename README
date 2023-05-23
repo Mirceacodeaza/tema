@@ -1,0 +1,13 @@
+    Structura Team contine numarul de jucatori dintr-o echipa, un pointer catre structura player 
+care contine informatii despre fiecare jucator, si punctajul fiecarei echipe.
+    Cu ajutorul functiei add_node citim din fisierul d.in si stocam informatia intr-o lista, prin 
+adaugarea la inceput al fiecarui nod.
+    Pentru a ramane cu un numar care este putere al lui 2, ca numar de echipe,am folosit functia 
+delete_team intr-un for care sa elimine diferenta dintre numarul de echipe intial si numarul de 
+echipe care ar trebui sa fie.Functia delete_team ia fiecare echipa din lista, ii calculeaza punctajul
+si sterge echipa cu punctajul cel mai mic.
+    La task-ul 3 am folosit functia match care scrie in fisierul r.out, pentru fiecare runda, echipele
+ care se dueleaza si cele care sunt castigatoare, cu ajutorul unei cozi si a doua stive care se golesc 
+dupa fiecare pas din for. Initial, for-ul porneste de la numarul de echipe ramase dupa eliminari si se 
+opreste cand mai raman 8 echipe, pentru a le memora pentru task-ul 4, apoi se executa pana cand se scrie 
+ultima echipa.
